@@ -1,0 +1,4 @@
+.container { max-width: 800px; margin: 0 auto; text-align: center; }
+.descricao { font-size: 1.2rem; color: #666; margin-bottom: 2rem; }
+.mvvGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.item { padding: 15px; background: #f9f9f9; border-radius: 8px; border-bottom: 4px solid #61dafb; }

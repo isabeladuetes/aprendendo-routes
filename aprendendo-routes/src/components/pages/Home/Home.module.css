@@ -1,0 +1,13 @@
+.homeContainer {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  /* Cria colunas que se ajustam sozinhas (mínimo 250px cada) */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
